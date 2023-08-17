@@ -1,0 +1,53 @@
+/* Reset some default styles */
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Basic styling */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 30px;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+#customDeco {
+    text-decoration: none;
+}
